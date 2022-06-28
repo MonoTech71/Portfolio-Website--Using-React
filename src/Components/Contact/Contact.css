@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    background-image: url("./Laptop2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    padding-block: 100px;
+}
+
+.content{
+    width: 934px;
+    height: 565px;
+    position: relative;
+    border: 1px solid rgb(2, 121, 177);
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    margin-left: 180px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.content-2{
+    margin-top: 110px;
+
+}
+
+
+.content-2 span{
+    font-size: 28px;
+    margin-left: 100px;
+    margin-top: 15px;
+    color: white;
+}
+.content-2 p{
+    margin: 0;
+    font-size: 18px;
+    margin-left: 100px;
+    color: white;
+}
+
+.container5{
+    margin-top: -290px;
+    width: 90%;
+    position: relative;
+    margin-left: 490px; 
+}
+
+.input-name2{
+    margin-top: 35px;
+}
+
+.input-name3{
+    margin-top: 35px;
+}
+
+.button5{
+    width: 400px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.button5:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.form-icons{
+    padding-top: 70px;
+    padding-left: 460px;
+    font-size: 35px;
+    float: inline-end;
+    color: white;
+    letter-spacing: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form-icons i:hover{
+    color: orange;
+}
+
