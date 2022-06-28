@@ -81,6 +81,10 @@
     transition: 0.3s ease;
 }
 
+.form-icons a{
+    text-decoration: none;
+}
+
 .form-icons i:hover{
     color: orange;
 }

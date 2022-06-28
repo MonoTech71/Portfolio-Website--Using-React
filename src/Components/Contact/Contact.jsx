@@ -40,10 +40,10 @@ function Contact() {
             
            <div className='form-icons'>
             <ul>
-              <a href="https://www.linkedin.com/in/murshida-khatun/"></a><i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-github"><a href="https://github.com/MonoTech71"></a></i>
-              <i class="fa-brands fa-whatsapp"><a href="https://www.linkedin.com/in/murshida-khatun/"></a></i>
-              <i class="fa-solid fa-envelope"><a href="https://www.linkedin.com/in/murshida-khatun/"></a></i>
+              <i class="fa-brands fa-github" onClick={() => window.open("https://github.com/MonoTech71")} />
+              <i class="fa-brands fa-linkedin-in" onClick={() => window.open("https://www.linkedin.com/in/murshida-khatun/")} />
+              <i class="fa-brands fa-whatsapp" onClick={() => window.open("+8801731688619")} />
+              <i class="fa-brands fa-telegram" onClick={() => window.open("@monotech")} />
             </ul>
            </div>
 
